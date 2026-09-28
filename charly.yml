@@ -1,7 +1,5 @@
-version: 2026.232.0520
 pi-agent:
     candy:
-        version: 2026.199.1330
         description: |-
             Ephemeral native Pi agent runtime. Pins @earendil-works/pi-coding-agent
             and pi-tui 0.80.10 and installs a thin runner built on
