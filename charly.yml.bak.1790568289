@@ -1,5 +1,7 @@
+version: 2026.232.0520
 pi-agent:
     candy:
+        version: 2026.199.1330
         description: |-
             Ephemeral native Pi agent runtime. Pins @earendil-works/pi-coding-agent
             and pi-tui 0.80.10 and installs a thin runner built on
@@ -12,7 +14,7 @@ pi-agent:
             It also installs a pi-tui controller that renders durable Charly
             sessions/events and invokes only the typed `charly agent` API.
         require:
-            - '@github.com/opencharly/layer-nodejs:v2026.239.1624'
+            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
         volume:
             - name: sessions
               path: ~/.pi/agent/sessions
