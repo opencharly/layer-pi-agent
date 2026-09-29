@@ -52,6 +52,8 @@ terminal profile (terminal).
 
 ## Related
 
+- Closest family skill: `/charly-automation:agent` — the nearest owning procedure; this
+  repo carries no `skill:` entity of its own.
 - `/charly-automation:agent` — the Charly agent control plane, Pi native/
   orchestrator/TUI modes.
 - `/charly-automation:tmux` — the terminal-profile transport.
